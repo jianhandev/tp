@@ -19,7 +19,7 @@ public class AppointmentTest {
     @Test
     public void asObservableList_modifyList_throwsUnsupportedOperationException() {
 
-        assertThrows(UnsupportedOperationException.class, () -> APT4.getTags().remove(0));
+        assertThrows(UnsupportedOperationException.class, () -> APPT4.getTags().remove(0));
     }
 
     @Test
@@ -40,15 +40,14 @@ public class AppointmentTest {
         assertEquals(APT1_DUPLICATE, APT1);
         // different Patient -> returns False
         assertNotEquals(APT3, APT1);
-
     }
 
     @Test
     public void getPatient() {
-        // same Patient -> returns True
-        assertEquals(ALICE, APT1.getPatient());
-        // different Patient -> returns False
-        assertNotEquals(ALICE, APT4.getPatient());
+        // same Patient
+        assertEquals(ALICE, APPT1.getPatient());
+        // different Patient
+        assertNotEquals(ALICE, APPT4.getPatient());
     }
 
 }
