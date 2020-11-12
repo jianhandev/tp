@@ -130,8 +130,8 @@ Symbol/Syntax    |  What does it mean?
 ---------------- | -------------------
 <ins>underlined</ins> | Information that you need to pay special attention to, especially for the parameters.
 `command`           | A grey highlight (called a code-block markup) indicates that this is a command that can be typed into the command box and executed by the application.
-**Note:**        | Special notes/tips regarding that specific command/feature.
-**Warning:**       | Notes prompting you to confirm that the command you are going to enter is really intended.
+:information_source:        | Special notes/tips regarding that specific command/feature.
+:warning:       | Notes prompting you to confirm that the command you are going to enter is really intended.
 
 #### 3.2.3. Command Format & Syntax
 
